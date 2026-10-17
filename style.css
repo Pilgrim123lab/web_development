@@ -1,0 +1,497 @@
+/* CSS styles for the webpage */
+/* I learnt about how to use css to style the background using the body selector and also that we can style a partcular element and also i learn that we can specify the image for 
+a particular element and also i learnt about the background-repeat, background-size, and background-position properties to control how the background image is displayed. Additionally, 
+I learned about using different selectors to target specific elements and applying various styles such as colors, fonts, and spacing to enhance the overall design of the webpage. */
+body{
+    background-image:url('picture.png');
+    background-attachment: fixed;
+    background-color:#f2f2f2;
+}
+/* i also learnt about borders in css, and how we  can set some of the  features like the border-style, border-color, border-top-style and also for the other sides*/
+p.one{
+    border-style: solid;
+    border-color:red;
+    border-width: 2px 4px 6px 8px;/* this specific border will have 2 pixel for the top border, 4 for the right border, 6 for the bottom border and then 8 for the left border.*/    
+}
+/* i also learnt about the border radius property and how we can use it to make the border of an element rounded. */
+p.two{
+    border-style: solid;
+    border-color:blue;
+    border-width: 2px;
+    border-radius: 10px; /* this will make the corners of the border rounded with a radius of 10 pixels */
+}
+/*i also learnt about the padding property and how we can use it to create space between the content of an element and its border. */
+p.three{
+    border-style: solid;
+    border-color:green;
+    border-width: 2px;
+    padding: 20px; /* this will create a padding of 20 pixels on all sides of the content */
+}
+/* i also learnt about the margin property and how we can use it to create space between an element and its surrounding elements. */
+p.four{
+    border-style: solid;
+    border-color:orange;
+    border-width: 2px;
+    margin: 30px; /* this will create a margin of 30 pixels on all sides of the element */
+}
+
+/* i also learnt about the text alignment property and how we can use it to align the text within an element. */
+p.five{
+    text-align: center; /* this will center the text within the paragraph */
+    border-style: solid;
+    border-color:purple;
+    border-width: 2px;
+}
+/* i also learnt about the font-family property and how we can use it to change the font of the text within an element. */
+p.six{
+    font-family: Arial, sans-serif; /* this will change the font of the text to Arial, and if Arial is not available, it will use a generic sans-serif font */
+    border-style: solid;
+    border-color:brown;
+    border-width: 2px;
+}
+/* i also learnt about the font-size property and how we can use it to change the size of the text within an element. */
+p.seven{
+    font-size: 20px; /* this will change the size of the text to 20 pixels */
+    border-style: solid;
+    border-color:cyan;
+    border-width: 2px;
+}
+/* i also learn about the text decoration property and how we can use it to add or remove decorations from the text within an element. */
+p.eight{
+    text-decoration: underline; /* this will add an underline decoration to the text */
+    border-style: solid;
+    border-color:magenta;
+    border-width: 2px;
+}
+/* i also learnt about how to use the google font and their effects on the text and also how to use the font-weight property to make the text bold or light. */
+p.nine{
+    font-family: 'Roboto', sans-serif; /* this will change the font of the text to Roboto, and if Roboto is not available, it will use a generic sans-serif font */
+    font-weight: bold; /* this will make the text bold */
+    border-style: solid;
+    border-color:lime;
+    border-width: 2px;
+}
+/* i also learnt about the line-height property and how we can use it to change the spacing between lines of text within an element. */
+p.ten{
+    line-height: 1.5; /* this will set the line height to 1.5 times the font size, creating more space between lines of text */
+    border-style: solid;
+    border-color:navy;
+    border-width: 2px;
+}
+/* i also learnt about the letter-spacing property and how we can use it to change the spacing between letters of text within an element. */
+p.eleven{
+    letter-spacing: 2px; /* this will set the spacing between letters to 2 pixels */
+    border-style: solid;
+    border-color:teal;
+    border-width: 2px;
+}
+/* i also learnt about the text-transform property and how we can use it to change the case of the text within an element. */
+p.twelve{
+    text-transform: uppercase; /* this will change the text to uppercase */
+    border-style: solid;
+    border-color:maroon;
+    border-width: 2px;
+}
+/* i also learnt about the text-shadow property and how we can use it to add a shadow effect to the text within an element. */
+p.thirteen{
+    text-shadow: 2px 2px 4px #000000; /* this will add a shadow effect to the text with a horizontal offset of 2 pixels, vertical offset of 2 pixels, blur radius of 4 pixels, and a color of black */
+    border-style: solid;
+    border-color:olive;
+    border-width: 2px;
+}
+/* i also learn that using the em and the rem units in css can be used to set the font size and other properties relative to the parent element or the root element, respectively. */
+p.fourteen{
+    font-size: 1.5em; /* this will set the font size to 1.5 times the font size of the parent element */
+    border-style: solid;
+    border-color:gray;
+    border-width: 2px;
+}
+/* i also learn how to style the links in css using the a selector and also how to use the pseudo-classes like :hover, :active, and :visited to change the appearance of links based on their state. */
+a{
+    color: blue; /* this will set the color of the link to blue */
+    text-decoration: none; /* this will remove the underline from the link */
+}
+/* i also learnt how to style the links when they are hovered over using the :hover pseudo-class. */
+a:hover{
+    color: red; /* this will change the color of the link to red when hovered over */
+    text-decoration: underline; /* this will add an underline to the link when hovered over */
+}
+a:unvisited{
+    color: green; /* this will set the color of unvisited links to green */
+}
+a:visited{
+    color: purple; /* this will set the color of visited links to purple */
+}
+/* i also learnt about the cursor property and how we can use it to change the cursor when hovering over an element. */
+a:hover{
+    cursor: pointer; /* this will change the cursor to a pointer when hovering over the link */
+}
+/* i also leantnt about the css list and table styling and how we can use the list-style-type property to change the bullet style of lists and also how to use the border-collapse property to control the borders of tables. */
+ul{
+    list-style-type: square; /* this will change the bullet style of the unordered list to square */
+    list-style: armenian;
+}
+/* i also learnt about the table styling and how we can use the border-collapse property to control the borders of tables. */
+table{
+    border-collapse: collapse; /* this will collapse the borders of the table, removing any space between them */
+    width: 100%; /* this will set the width of the table to 100% of its container */
+}
+/* i also learnt that we can style a table so that when we hover over a row, it changes color to indicate that it is being hovered over. */
+tr:hover{
+    background-color: #f5f5f5; /* this will change the background color of the table row to a light gray when hovered over */
+}
+/* i also learnt about the css display property and how we can use it to control the layout of elements on the page. */
+div{
+    display: block; /* this will set the display property of the div to block */
+    visibility: collapse; /* this will hide the div and remove it from the layout flow */
+    visibility: hidden; /* this will hide the div but still take up space in the layout flow */
+}
+/* i also learnt about the css position property and how we can use it to control the positioning of elements on the page. */
+div.one{
+    position: absolute; /* this will set the position of the div to absolute, allowing it to be positioned relative to its nearest positioned ancestor */
+    top: 50px; /* this will set the top position of the div to 50 pixels from the top of its containing element */
+    left: 100px; /* this will set the left position of the div to 100 pixels from the left of its containing element */
+}
+/* i also learnt about the css z-index property and how we can use it to control the stacking order of elements on the page. */
+div.two{
+    position: relative;
+    z-index: 1;
+    color: red; /* this will set the text color of the div to red */
+}
+/* i also learnt about the css overflow property and how it can be used to set how the content can be seen when it is too long for the container*/
+div{
+    overflow: auto; /* this will add scrollbars to the div if the content overflows */
+    overflow:hidden; /* this will hide any content that overflows the div */
+    overflow:scroll; /* this will add horizontal and vertical scrollbar*/
+    overflow-x:auto;
+    overflow-y: auto;
+}
+/* i also learnt about the css float, it can help us to make a content wrap around  another, example an image can have the words to flow along with it*/
+img{
+    float:right;
+    float:left;
+}
+/* i also learnt that we can use the css clear property to control the behavior of elements that follow floated elements. */
+div{
+    content: '';
+    clear: both; /* this will clear any floated elements and ensure that the div appears below them */
+}
+/* i also learnt about the css clearfix hack that is used to ensure that the floated elements are contained within their parent container. */
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both; /* this will clear any floated elements and ensure that the parent container expands to contain them */
+}
+/* i also learnt about the display inline-block, which can allow us to make the inline element to behave like block element
+and even have some features like the width and height*/
+.display{
+    display: inline-block;
+    width: 3px;
+}
+/* i also learnt about how we can align element both horizontally and vertically*/
+.center{
+    display:flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+/* i also learnt about the css pseudo class element*/
+a:link{
+    background-color: tomato;
+}
+a:visited{
+    background-color: blue;
+}
+a:hover{
+    background-color: yellow;
+}
+a:active{
+    background-color: tomato;
+}
+input:focus{
+    background-color: #f2f2f2;
+}
+/* i also learnt about the css pseudo element and how we can use it to style specific parts of an element. */
+p::first-letter{
+    font-size: 200%; /* this will set the font size of the first letter of the paragraph to 200% of the normal size */
+    color: red; /* this will set the color of the first letter of the paragraph to red */
+}
+p::first-line{
+    font-weight: bold; /* this will set the font weight of the first line of the paragraph to bold */
+    color: blue; /* this will set the color of the first line of the paragraph to blue */
+}
+::before{
+    content: 'Before '; /* this will add the text "Before " before the content of the element */
+    color: green; /* this will set the color of the added text to green */
+}
+::after{
+    content: ' After'; /* this will add the text " After" after the content of the element */
+    color: orange; /* this will set the color of the added text to orange */
+}
+::selection{
+    background-color: yellow; /* this will set the background color of the selected text to yellow */
+    color: black; /* this will set the color of the selected text to black */
+}
+/* i also learnt how to use css with the opacity property to make an element transparent or semi-transparent. */
+.transparent{
+    opacity: 0.5; /* this will set the opacity of the element to 50%, making it semi-transparent */
+}
+/* i also learnt about the navigation bar, and how the vertical bar can be created using the ul and li elements, and also how to style the links within the navigation bar. */
+nav{
+    background-color: #333; /* this will set the background color of the navigation bar to dark gray */
+    overflow: auto; /* this will hide any content that overflows the navigation bar */
+}
+nav ul{
+    display:block; /* this will make the unordered list behave like a block element */
+    list-style-type: none; /* this will remove the default bullet points from the list */
+    margin: 0; /* this will remove the default margin from the list */
+    padding: 0; /* this will remove the default padding from the list */
+}
+nav li{
+    width: 200px; /* this will set the width of the list items to 200 pixels */
+}
+nav a{
+    display: block; /* this will make the links behave like block elements */
+    color: white; /* this will set the color of the links to white */
+    text-decoration: none; /* this will remove the default underline from the links */
+    padding: 14px 16px; /* this will add some space around the links */
+}
+nav a:hover{
+    background-color: #111; /* this will set the background color of the links to a darker gray when hovered */
+}
+a.active{
+    background-color: #4CAF50; /* this will set the background color of the active link to green */
+    color:white;
+}
+/* if we want to create a full height navigation bar*/
+ul{
+    list-style-type: none;
+    cursor: pointer;
+    display: block;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding:0;
+    position: fixed;/* this will make the nav bar not to scroll even when the page is being scrolled*/
+    overflow: auto;/* if the content of the nav bar is too long this will allow us to scroll it down*/
+}
+/* i also learnt about how to create the drop down features in the css styling.*/
+.dropbtn{
+    border:1px solid;
+    border-radius:5px;
+    cursor:pointer;
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    width: 200px;
+}
+.dropbtn:hover{
+    background-color: #3e8e41;
+}
+.dropbtn:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+/* i also learnt how to style the form elements in css and how to use the input selector to target specific input types and apply styles to them. */
+input[type=text], select{
+    width: 100%; /* this will set the width of the input and select elements to 100% of their container */
+    padding: 12px; /* this will add some space inside the input and select elements */
+    border: 1px solid #ccc; /* this will set the border of the input and select elements to a light gray color */
+    border-radius: 4px; /* this will make the corners of the input and select elements rounded */
+    box-sizing: border-box; /* this will include the padding and border in the total width and height of the input and select elements */
+}
+input[type=submit]{
+    background-color: #4CAF50; /* this will set the background color of the submit button to green */
+    color: white; /* this will set the text color of the submit button to white */
+    padding: 14px 20px; /* this will add some space inside the submit button */
+    border: none; /* this will remove the default border from the submit button */
+    border-radius: 4px; /* this will make the corners of the submit button rounded */
+    cursor: pointer; /* this will change the cursor to a pointer when hovering over the submit button */
+}
+label{
+    display: block; /* this will make the label behave like a block element */
+    margin-bottom: 8px; /* this will add some space below the label */
+}
+/* i also learnt about counters in css and how we can use them to create numbered lists or other types of counters. */  
+body{
+    counter-reset: section; /* this will reset the counter to 0 at the beginning of the body */
+}   
+h1::before{
+    counter-increment: section; /* this will increment the counter by 1 for each h1 element */
+    content: "Section " counter(section) ": "; /* this will display the current value of the counter before the h1 element */
+}
+/* i also learnt about the !important declaration in css and how it can be used to override other styles and give a property higher priority. */
+p{
+    color: blue !important; /* this will set the text color of the paragraph to blue and give it higher priority than other styles */
+}
+/* i also learnt that we can use the fixed position to make sure that a particular element example a footer keep showing even when scrolling
+ */
+ footer{
+    position: fixed; /* this will set the position of the footer to fixed, allowing it to stay in place even when scrolling */
+    bottom: 0; /* this will position the footer at the bottom of the viewport */
+    width: 100%; /* this will set the width of the footer to 100% of the viewport */
+    background-color: #333; /* this will set the background color of the footer to dark gray */
+    color: white; /* this will set the text color of the footer to white */
+    text-align: center; /* this will center the text within the footer */
+    padding: 10px; /* this will add some space inside the footer */
+ }
+ /* i also learnt that if we want to create a navigation bar that is horizonatal we can use the display property */
+ nav ul{
+    display: flex; /* this will create a horizontal navigation bar */
+    list-style-type: none; /* this will remove the default bullet points from the list */
+ }
+ /* i also learnt how to create a multiple background images on the page of a browser */
+ #img{
+    background-image: url('image1.jpg'), url('image2.jpg'); /* this will set two background images for the element with the id "img" */
+    background-position: left top, right bottom; /* this will position the first image at the top left and the second image at the bottom right */
+    background-repeat: no-repeat, no-repeat; /* this will prevent both images from repeating */
+    background-size: cover, contain; /* this will make the first image cover the entire element and the second image fit within the element */
+ }
+ /* i also learnt that  if i want to create an image that can fill the whole of the page i will have to use the following properties */
+ #full-page-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+ }
+ /* i also learnt about the background clip property and how we can use it to clip the background of an element */
+ #div{
+    background-color: red;
+    background-clip: content-box; /* this will clip the background to the content box of the element */
+    padding: 20px; /* this will add some space inside the element */
+    border:#000000 solid 5px; /* this will add a black border around the element */
+ }
+/* i also learnt about the use of the text shadow property and how we can use it to add a shadow effect to the text */
+ h1{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* this will add a shadow effect to the h1 element */
+ }
+ /* i also learnt about the use of the word wrap ad the use of the word  break */
+ p{
+    word-wrap: break-word; /* this will allow long words to break and wrap onto the next line */
+    word-break: break-all; /* this will break words at any character to prevent overflow */
+ }
+ /* i also learnt about the use of the 2d transform property  and how we can use the matrix function as a short-hand */
+ .transformed{
+    transform: matrix(1, 0, 0, 1, 0, 0); /* this will apply a 2D transformation to the element */
+ }
+ /* i also learnt about the use of the 3d transform property and how we can use the matrix3d function as a short-hand */
+ .transformed-3d{
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); /* this will apply a 3D transformation to the element */
+ }
+ /* i also learnt about the use of the perspective property and how we can use it to create a 3D effect  */
+    .perspective{
+        perspective: 1000px; /* this will set the perspective of the element to 1000 pixels */
+    }
+/* i also learnt about the use of the transition property and how we can use it to create smooth animations */
+    .transition{
+        transition: all 0.3s ease; /* this will create a smooth transition effect for all properties */
+    }
+/* i also learnt about the use of the animation property and how we can use it to create custom animations */
+    .animation{
+        animation: myAnimation 2s infinite; /* this will apply a custom animation to the element */
+    }
+/* i also learnt about the use of the keyframes rule and how we can use it to define custom animations */
+    @keyframes myAnimation{
+        0%{ transform: translateX(0); }
+        50%{ transform: translateX(100px); }
+        100%{ transform: translateX(0); }
+    }
+/* i also learnt that we can use the from and to in the keyframes rule and let the element transition from the left to the right */
+    @keyframes myAnimation2{
+        from{ transform: translateX(0); }
+        to{ transform: translateX(100px); }
+    }
+/* i also learnt about the use of the animation-direction property and how we can use it to control the direction of the animation */
+    .animation-direction{
+        animation-direction: alternate; /* this will make the animation reverse direction at each cycle */
+    }
+/* i also learnt about the use of the animation-delay property and how we can use it to delay the start of the animation */
+    .animation-delay{
+        animation-delay: 1s; /* this will delay the start of the animation by 1 second */
+    }
+/* i also learnt about the use of tooltip in the code of our webpage */
+    .tooltip{
+        position: relative; /* this will set the position of the tooltip to relative */
+        display: inline-block; /* this will make the tooltip behave like an inline element */
+    }
+    .tooltip .tooltiptext{
+        visibility: hidden; /* this will hide the tooltip text by default */
+        width: 120px; /* this will set the width of the tooltip text */
+        background-color: black; /* this will set the background color of the tooltip text */
+        color: #fff; /* this will set the text color of the tooltip text */
+        text-align: center; /* this will center the text within the tooltip */
+        border-radius: 6px; /* this will make the corners of the tooltip rounded */
+        padding: 5px 0; /* this will add some space inside the tooltip */
+        position: absolute; /* this will position the tooltip text absolutely */
+        z-index: 1; /* this will set the stacking order of the tooltip text */
+    }
+    .tooltip:hover .tooltiptext{
+        visibility: visible; /* this will show the tooltip text when hovering over the tooltip */
+    }
+/* i also learnt that we can use the display flex and justify-content properties to create responsive layouts */
+div.flex-container{
+    display: flex; /* this will create a flex container */
+    justify-content: space-between; /* this will distribute the space between the flex items */
+}
+img.flex-item{
+    width: 100px; /* this will set the width of the flex item */
+    height: 100px; /* this will set the height of the flex item */
+}
+/* i also learnt about the use of the image filter functions and how they can be used to enhance images */
+img.filter-item{
+    filter: brightness(1.2); /* this will increase the brightness of the image */
+  filter: contrast(1.5); /* this will increase the contrast of the image */
+    filter: grayscale(100%); /* this will convert the image to grayscale */
+    filter: blur(5px); /* this will apply a blur effect to the image */
+    filter: sepia(100%); /* this will apply a sepia effect to the image */
+    filter: hue-rotate(90deg); /* this will rotate the hue of the image by 90 degrees */
+    filter: invert(100%); /* this will invert the colors of the image */
+}
+/* i also learnt about the use of pagination in web development */
+.pagination{
+    display: flex; /* this will create a flex container for the pagination */
+    justify-content: center; /* this will center the pagination items */
+    list-style-type: none; /* this will remove the default bullet points from the list */
+}
+.pagination li{
+    margin: 0 5px; /* this will add some space between the pagination items */
+}
+.pagination a{
+    display: block; /* this will make the pagination links behave like block elements */
+    padding: 8px 16px; /* this will add some space inside the pagination links */
+    text-decoration: none; /* this will remove the default underline from the pagination links */
+    color: black; /* this will set the text color of the pagination links to black */
+    border: 1px solid #ddd; /* this will add a light gray border around the pagination links */
+}
+/* i also learnt about multiple columns in CSS */
+.column{
+    float: left; /* this will make the column float to the left */
+    width: 33.33%; /* this will set the width of the column to one-third of the container */
+    padding: 10px; /* this will add some space inside the column */
+    column-count: 3; /* this will set the number of columns to 3 */
+    column-width: 200px; /* this will set the width of each column to 200 pixels */
+    column-gap: 20px; /* this will set the gap between the columns to 20 pixels */
+}
+/* i also learnt about the css resize property */
+.resize{
+    resize: both; /* this will allow the element to be resized in both directions */
+    overflow: auto; /* this will add scrollbars if the content overflows */
+}
